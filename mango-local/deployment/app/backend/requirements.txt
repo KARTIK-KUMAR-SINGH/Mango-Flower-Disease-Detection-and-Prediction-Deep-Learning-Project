@@ -1,0 +1,8 @@
+# IMPORTANT: pin tensorflow to the version you trained with.
+# Check with:  pip freeze | grep -i -E "tensorflow|keras"
+tensorflow-cpu>=2.20
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pillow>=10
+numpy
